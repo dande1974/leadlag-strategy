@@ -1,0 +1,39 @@
+name: Daily Leadlag Strategy
+
+on:
+  schedule:
+    # 毎週月〜金 21:30 UTC = 火〜土 06:30 JST
+    # 金曜 21:30 UTC = 土曜 06:30 JST → 月曜ポジション生成
+    - cron: '30 21 * * 1-5'
+  workflow_dispatch:   # 手動実行ボタン（テスト用）
+
+jobs:
+  run-strategy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # output/ への push 権限
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install yfinance pandas numpy pytz
+
+      - name: Run strategy
+        run: python strategy.py
+
+      - name: Commit and push output files
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/latest.json output/last_position.json
+          git diff --staged --quiet && echo "変化なし" || \
+            (git commit -m "Daily update $(date -u +'%Y-%m-%d %H:%M UTC')" && git push)
