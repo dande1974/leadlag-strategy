@@ -1,0 +1,208 @@
+{
+  "execution_datetime": "2026-06-12 13:40",
+  "analysis": {
+    "us_data_date": "2026-06-11",
+    "window_end": "2026-06-11",
+    "window_length": 250,
+    "eigenvalues_top3": [
+      287.574082,
+      155.146831,
+      111.975198
+    ],
+    "params": {
+      "K": 3,
+      "lambda": 0.9,
+      "q": 0.3
+    }
+  },
+  "us_returns": {
+    "XLC": {
+      "prev_close": 111.01,
+      "curr_close": 112.12,
+      "r_cc_pct": 0.9999,
+      "z_U": 1.145784
+    },
+    "XLY": {
+      "prev_close": 113.49,
+      "curr_close": 116.3,
+      "r_cc_pct": 2.476,
+      "z_U": 2.105471
+    },
+    "XLP": {
+      "prev_close": 85.49,
+      "curr_close": 85.27,
+      "r_cc_pct": -0.2573,
+      "z_U": -0.353113
+    },
+    "XLE": {
+      "prev_close": 58.25,
+      "curr_close": 57.12,
+      "r_cc_pct": -1.9399,
+      "z_U": -1.593606
+    },
+    "XLF": {
+      "prev_close": 52.23,
+      "curr_close": 52.62,
+      "r_cc_pct": 0.7467,
+      "z_U": 0.782382
+    },
+    "XLV": {
+      "prev_close": 152.85,
+      "curr_close": 154.09,
+      "r_cc_pct": 0.8112,
+      "z_U": 0.792115
+    },
+    "XLI": {
+      "prev_close": 169.66,
+      "curr_close": 175.15,
+      "r_cc_pct": 3.2359,
+      "z_U": 3.079214
+    },
+    "XLB": {
+      "prev_close": 49.6,
+      "curr_close": 51.22,
+      "r_cc_pct": 3.2661,
+      "z_U": 2.903306
+    },
+    "XLRE": {
+      "prev_close": 44.99,
+      "curr_close": 44.92,
+      "r_cc_pct": -0.1556,
+      "z_U": -0.226795
+    },
+    "XLK": {
+      "prev_close": 176.63,
+      "curr_close": 183.21,
+      "r_cc_pct": 3.7253,
+      "z_U": 2.490433
+    },
+    "XLU": {
+      "prev_close": 44.0,
+      "curr_close": 44.05,
+      "r_cc_pct": 0.1136,
+      "z_U": 0.074732
+    }
+  },
+  "signals_ranked": {
+    "電力・ガス": {
+      "signal": 0.910853,
+      "code": "1627",
+      "class": "ディフェンシブ",
+      "position": "LONG"
+    },
+    "情報・サービス他": {
+      "signal": 0.816162,
+      "code": "1626",
+      "class": "シクリカル",
+      "position": "LONG"
+    },
+    "自動車・輸送機": {
+      "signal": 0.774097,
+      "code": "1622",
+      "class": "シクリカル",
+      "position": "LONG"
+    },
+    "素材・化学": {
+      "signal": 0.753234,
+      "code": "1620",
+      "class": "シクリカル",
+      "position": "LONG"
+    },
+    "鉄鋼・非鉄": {
+      "signal": 0.584326,
+      "code": "1623",
+      "class": "シクリカル",
+      "position": "LONG"
+    },
+    "運輸・物流": {
+      "signal": 0.580971,
+      "code": "1628",
+      "class": "ニュートラル",
+      "position": "-"
+    },
+    "食品": {
+      "signal": 0.283165,
+      "code": "1617",
+      "class": "ディフェンシブ",
+      "position": "-"
+    },
+    "電機・精密": {
+      "signal": 0.255011,
+      "code": "1625",
+      "class": "シクリカル",
+      "position": "-"
+    },
+    "建設・資材": {
+      "signal": 0.196986,
+      "code": "1619",
+      "class": "シクリカル",
+      "position": "-"
+    },
+    "商社・卸売": {
+      "signal": 0.12656,
+      "code": "1629",
+      "class": "ニュートラル",
+      "position": "-"
+    },
+    "エネルギー資源": {
+      "signal": 0.073408,
+      "code": "1618",
+      "class": "シクリカル",
+      "position": "-"
+    },
+    "不動産": {
+      "signal": 0.031091,
+      "code": "1633",
+      "class": "ニュートラル",
+      "position": "-"
+    },
+    "小売": {
+      "signal": 0.022454,
+      "code": "1630",
+      "class": "ニュートラル",
+      "position": "SHORT"
+    },
+    "機械": {
+      "signal": -0.129791,
+      "code": "1624",
+      "class": "シクリカル",
+      "position": "SHORT"
+    },
+    "医薬品": {
+      "signal": -0.207898,
+      "code": "1621",
+      "class": "ディフェンシブ",
+      "position": "SHORT"
+    },
+    "銀行": {
+      "signal": -0.490661,
+      "code": "1631",
+      "class": "シクリカル",
+      "position": "SHORT"
+    },
+    "金融(除く銀行)": {
+      "signal": -1.323311,
+      "code": "1632",
+      "class": "シクリカル",
+      "position": "SHORT"
+    }
+  },
+  "positions": {
+    "target_date": "2026-06-12",
+    "long_positions": [
+      "電力・ガス",
+      "情報・サービス他",
+      "自動車・輸送機",
+      "素材・化学",
+      "鉄鋼・非鉄"
+    ],
+    "short_positions": [
+      "小売",
+      "機械",
+      "医薬品",
+      "銀行",
+      "金融(除く銀行)"
+    ]
+  },
+  "verification": null
+}
