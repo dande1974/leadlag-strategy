@@ -1,13 +1,13 @@
 {
-  "execution_datetime": "2026-07-02 17:32",
+  "execution_datetime": "2026-07-03 17:40",
   "analysis": {
-    "us_data_date": "2026-07-01",
-    "window_end": "2026-07-01",
+    "us_data_date": "2026-07-02",
+    "window_end": "2026-07-02",
     "window_length": 250,
     "eigenvalues_top3": [
-      344.677148,
-      232.55171,
-      129.268336
+      348.448464,
+      238.945256,
+      128.339073
     ],
     "params": {
       "K": 3,
@@ -17,269 +17,269 @@
   },
   "us_returns": {
     "XLC": {
-      "prev_close": 107.13,
-      "curr_close": 109.74,
-      "r_cc_pct": 2.4363,
-      "z_U": 2.797674
+      "prev_close": 109.74,
+      "curr_close": 109.6,
+      "r_cc_pct": -0.1276,
+      "z_U": -0.164365
     },
     "XLY": {
-      "prev_close": 117.28,
-      "curr_close": 118.09,
-      "r_cc_pct": 0.6907,
-      "z_U": 0.555869
+      "prev_close": 118.09,
+      "curr_close": 117.12,
+      "r_cc_pct": -0.8214,
+      "z_U": -0.727443
     },
     "XLP": {
-      "prev_close": 83.07,
-      "curr_close": 83.3,
-      "r_cc_pct": 0.2769,
-      "z_U": 0.310316
+      "prev_close": 83.3,
+      "curr_close": 84.99,
+      "r_cc_pct": 2.0288,
+      "z_U": 2.385452
     },
     "XLE": {
-      "prev_close": 53.11,
-      "curr_close": 52.81,
-      "r_cc_pct": -0.5649,
-      "z_U": -0.506668
+      "prev_close": 52.81,
+      "curr_close": 53.22,
+      "r_cc_pct": 0.7764,
+      "z_U": 0.515025
     },
     "XLF": {
-      "prev_close": 53.61,
-      "curr_close": 54.78,
-      "r_cc_pct": 2.1824,
-      "z_U": 2.332758
+      "prev_close": 54.78,
+      "curr_close": 55.62,
+      "r_cc_pct": 1.5334,
+      "z_U": 1.624155
     },
     "XLV": {
-      "prev_close": 158.66,
-      "curr_close": 159.54,
-      "r_cc_pct": 0.5546,
-      "z_U": 0.490698
+      "prev_close": 159.54,
+      "curr_close": 163.74,
+      "r_cc_pct": 2.6326,
+      "z_U": 2.581402
     },
     "XLI": {
-      "prev_close": 185.23,
-      "curr_close": 183.36,
-      "r_cc_pct": -1.0096,
-      "z_U": -1.057431
+      "prev_close": 183.36,
+      "curr_close": 183.91,
+      "r_cc_pct": 0.3,
+      "z_U": 0.197536
     },
     "XLB": {
-      "prev_close": 50.83,
-      "curr_close": 51.02,
-      "r_cc_pct": 0.3738,
-      "z_U": 0.288906
+      "prev_close": 51.02,
+      "curr_close": 52.01,
+      "r_cc_pct": 1.9404,
+      "z_U": 1.700921
     },
     "XLRE": {
-      "prev_close": 44.03,
-      "curr_close": 44.18,
-      "r_cc_pct": 0.3407,
-      "z_U": 0.338187
+      "prev_close": 44.18,
+      "curr_close": 44.68,
+      "r_cc_pct": 1.1317,
+      "z_U": 1.218947
     },
     "XLK": {
-      "prev_close": 190.52,
-      "curr_close": 185.62,
-      "r_cc_pct": -2.5719,
-      "z_U": -1.815329
+      "prev_close": 185.62,
+      "curr_close": 180.59,
+      "r_cc_pct": -2.7098,
+      "z_U": -1.884685
     },
     "XLU": {
-      "prev_close": 45.34,
-      "curr_close": 44.77,
-      "r_cc_pct": -1.2572,
-      "z_U": -1.408396
+      "prev_close": 44.77,
+      "curr_close": 45.76,
+      "r_cc_pct": 2.2113,
+      "z_U": 2.288201
     }
   },
   "signals_ranked": {
     "小売": {
-      "signal": 0.565511,
+      "signal": 1.18183,
       "code": "1630",
       "class": "ニュートラル",
       "position": "LONG"
     },
     "不動産": {
-      "signal": -0.028403,
+      "signal": 0.876941,
       "code": "1633",
       "class": "ニュートラル",
       "position": "LONG"
     },
-    "エネルギー資源": {
-      "signal": -0.031942,
-      "code": "1618",
-      "class": "シクリカル",
-      "position": "LONG"
-    },
     "医薬品": {
-      "signal": -0.041219,
+      "signal": 0.724546,
       "code": "1621",
       "class": "ディフェンシブ",
       "position": "LONG"
     },
-    "商社・卸売": {
-      "signal": -0.041283,
-      "code": "1629",
+    "建設・資材": {
+      "signal": 0.594101,
+      "code": "1619",
+      "class": "シクリカル",
+      "position": "LONG"
+    },
+    "運輸・物流": {
+      "signal": 0.474724,
+      "code": "1628",
       "class": "ニュートラル",
       "position": "LONG"
     },
-    "建設・資材": {
-      "signal": -0.171789,
-      "code": "1619",
-      "class": "シクリカル",
-      "position": "-"
-    },
-    "食品": {
-      "signal": -0.201152,
-      "code": "1617",
-      "class": "ディフェンシブ",
-      "position": "-"
-    },
-    "自動車・輸送機": {
-      "signal": -0.230354,
-      "code": "1622",
-      "class": "シクリカル",
-      "position": "-"
-    },
-    "運輸・物流": {
-      "signal": -0.256786,
-      "code": "1628",
-      "class": "ニュートラル",
-      "position": "-"
-    },
-    "機械": {
-      "signal": -0.263645,
-      "code": "1624",
-      "class": "シクリカル",
-      "position": "-"
-    },
-    "素材・化学": {
-      "signal": -0.272251,
-      "code": "1620",
-      "class": "シクリカル",
-      "position": "-"
-    },
     "金融(除く銀行)": {
-      "signal": -0.279921,
+      "signal": 0.429597,
       "code": "1632",
       "class": "シクリカル",
       "position": "-"
     },
-    "電力・ガス": {
-      "signal": -0.297334,
-      "code": "1627",
+    "食品": {
+      "signal": 0.423588,
+      "code": "1617",
       "class": "ディフェンシブ",
-      "position": "SHORT"
+      "position": "-"
+    },
+    "エネルギー資源": {
+      "signal": 0.419509,
+      "code": "1618",
+      "class": "シクリカル",
+      "position": "-"
+    },
+    "自動車・輸送機": {
+      "signal": 0.404503,
+      "code": "1622",
+      "class": "シクリカル",
+      "position": "-"
     },
     "銀行": {
-      "signal": -0.339594,
+      "signal": 0.38265,
       "code": "1631",
+      "class": "シクリカル",
+      "position": "-"
+    },
+    "電力・ガス": {
+      "signal": 0.352254,
+      "code": "1627",
+      "class": "ディフェンシブ",
+      "position": "-"
+    },
+    "素材・化学": {
+      "signal": 0.33652,
+      "code": "1620",
+      "class": "シクリカル",
+      "position": "-"
+    },
+    "機械": {
+      "signal": 0.240531,
+      "code": "1624",
       "class": "シクリカル",
       "position": "SHORT"
     },
+    "商社・卸売": {
+      "signal": 0.154894,
+      "code": "1629",
+      "class": "ニュートラル",
+      "position": "SHORT"
+    },
     "鉄鋼・非鉄": {
-      "signal": -0.540002,
+      "signal": -0.242593,
       "code": "1623",
       "class": "シクリカル",
       "position": "SHORT"
     },
-    "電機・精密": {
-      "signal": -0.938381,
-      "code": "1625",
+    "情報・サービス他": {
+      "signal": -0.580982,
+      "code": "1626",
       "class": "シクリカル",
       "position": "SHORT"
     },
-    "情報・サービス他": {
-      "signal": -1.081288,
-      "code": "1626",
+    "電機・精密": {
+      "signal": -0.597102,
+      "code": "1625",
       "class": "シクリカル",
       "position": "SHORT"
     }
   },
   "positions": {
-    "target_date": "2026-07-02",
+    "target_date": "2026-07-03",
     "long_positions": [
       "小売",
       "不動産",
-      "エネルギー資源",
       "医薬品",
-      "商社・卸売"
+      "建設・資材",
+      "運輸・物流"
     ],
     "short_positions": [
-      "電力・ガス",
-      "銀行",
+      "機械",
+      "商社・卸売",
       "鉄鋼・非鉄",
-      "電機・精密",
-      "情報・サービス他"
+      "情報・サービス他",
+      "電機・精密"
     ]
   },
   "verification": {
-    "verify_date": "2026-07-01",
-    "long_side_pct": -0.5126,
-    "short_side_pct": 0.474,
-    "strategy_return_pct": -0.0386,
-    "win_loss": "負け",
+    "verify_date": "2026-07-02",
+    "long_side_pct": 1.3598,
+    "short_side_pct": 0.0923,
+    "strategy_return_pct": 1.4521,
+    "win_loss": "勝ち",
     "results": {
-      "情報・サービス他": {
+      "小売": {
         "side": "LONG",
-        "open": 42710.0,
-        "close": 42580.0,
-        "roc_pct": -0.3044,
-        "contrib": -0.0609
-      },
-      "電機・精密": {
-        "side": "LONG",
-        "open": 71500.0,
-        "close": 71650.0,
-        "roc_pct": 0.2098,
-        "contrib": 0.042
-      },
-      "鉄鋼・非鉄": {
-        "side": "LONG",
-        "open": 73520.0,
-        "close": 69370.0,
-        "roc_pct": -5.6447,
-        "contrib": -1.1289
-      },
-      "機械": {
-        "side": "LONG",
-        "open": 89730.0,
-        "close": 92080.0,
-        "roc_pct": 2.619,
-        "contrib": 0.5238
-      },
-      "銀行": {
-        "side": "LONG",
-        "open": 37680.0,
-        "close": 37890.0,
-        "roc_pct": 0.5573,
-        "contrib": 0.1115
-      },
-      "食品": {
-        "side": "SHORT",
-        "open": 47520.0,
-        "close": 47580.0,
-        "roc_pct": 0.1263,
-        "contrib": -0.0253
-      },
-      "運輸・物流": {
-        "side": "SHORT",
-        "open": 20425.0,
-        "close": 20175.0,
-        "roc_pct": -1.224,
-        "contrib": 0.2448
-      },
-      "医薬品": {
-        "side": "SHORT",
-        "open": 28985.0,
-        "close": 29110.0,
-        "roc_pct": 0.4313,
-        "contrib": -0.0863
+        "open": 37250.0,
+        "close": 37780.0,
+        "roc_pct": 1.4228,
+        "contrib": 0.2846
       },
       "不動産": {
-        "side": "SHORT",
-        "open": 50850.0,
-        "close": 50200.0,
-        "roc_pct": -1.2783,
-        "contrib": 0.2557
+        "side": "LONG",
+        "open": 50470.0,
+        "close": 52400.0,
+        "roc_pct": 3.8241,
+        "contrib": 0.7648
       },
-      "小売": {
+      "エネルギー資源": {
+        "side": "LONG",
+        "open": 31060.0,
+        "close": 31360.0,
+        "roc_pct": 0.9659,
+        "contrib": 0.1932
+      },
+      "医薬品": {
+        "side": "LONG",
+        "open": 29390.0,
+        "close": 29915.0,
+        "roc_pct": 1.7863,
+        "contrib": 0.3573
+      },
+      "商社・卸売": {
+        "side": "LONG",
+        "open": 250.0,
+        "close": 247.0,
+        "roc_pct": -1.2,
+        "contrib": -0.24
+      },
+      "電力・ガス": {
         "side": "SHORT",
-        "open": 37610.0,
-        "close": 37450.0,
-        "roc_pct": -0.4254,
-        "contrib": 0.0851
+        "open": 11335.0,
+        "close": 11335.0,
+        "roc_pct": 0.0,
+        "contrib": -0.0
+      },
+      "銀行": {
+        "side": "SHORT",
+        "open": 38480.0,
+        "close": 38740.0,
+        "roc_pct": 0.6757,
+        "contrib": -0.1351
+      },
+      "鉄鋼・非鉄": {
+        "side": "SHORT",
+        "open": 67810.0,
+        "close": 66430.0,
+        "roc_pct": -2.0351,
+        "contrib": 0.407
+      },
+      "電機・精密": {
+        "side": "SHORT",
+        "open": 70150.0,
+        "close": 69290.0,
+        "roc_pct": -1.2259,
+        "contrib": 0.2452
+      },
+      "情報・サービス他": {
+        "side": "SHORT",
+        "open": 42850.0,
+        "close": 43760.0,
+        "roc_pct": 2.1237,
+        "contrib": -0.4247
       }
     }
   }
