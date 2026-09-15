@@ -1,13 +1,13 @@
 {
-  "execution_datetime": "2026-09-15 08:56",
+  "execution_datetime": "2026-09-16 08:34",
   "analysis": {
-    "us_data_date": "2026-09-14",
-    "window_end": "2026-09-14",
+    "us_data_date": "2026-09-15",
+    "window_end": "2026-09-15",
     "window_length": 250,
     "eigenvalues_top3": [
-      262.723766,
-      164.604737,
-      113.245862
+      323.224449,
+      268.173705,
+      124.752715
     ],
     "params": {
       "K": 3,
@@ -17,269 +17,269 @@
   },
   "us_returns": {
     "XLC": {
-      "prev_close": 112.6,
-      "curr_close": 115.07,
-      "r_cc_pct": 2.1936,
-      "z_U": 2.279469
+      "prev_close": 115.07,
+      "curr_close": 114.03,
+      "r_cc_pct": -0.9038,
+      "z_U": -0.930226
     },
     "XLY": {
-      "prev_close": 112.96,
-      "curr_close": 112.85,
-      "r_cc_pct": -0.0974,
-      "z_U": -0.067204
+      "prev_close": 112.85,
+      "curr_close": 110.88,
+      "r_cc_pct": -1.7457,
+      "z_U": -1.402245
     },
     "XLP": {
-      "prev_close": 83.38,
-      "curr_close": 84.42,
-      "r_cc_pct": 1.2473,
-      "z_U": 1.329326
+      "prev_close": 84.42,
+      "curr_close": 83.73,
+      "r_cc_pct": -0.8173,
+      "z_U": -0.936334
     },
     "XLE": {
-      "prev_close": 65.14,
-      "curr_close": 64.53,
-      "r_cc_pct": -0.9364,
-      "z_U": -0.812463
+      "prev_close": 64.53,
+      "curr_close": 65.93,
+      "r_cc_pct": 2.1695,
+      "z_U": 1.456868
     },
     "XLF": {
-      "prev_close": 57.25,
-      "curr_close": 57.03,
-      "r_cc_pct": -0.3843,
-      "z_U": -0.456126
+      "prev_close": 57.03,
+      "curr_close": 56.85,
+      "r_cc_pct": -0.3156,
+      "z_U": -0.380909
     },
     "XLV": {
-      "prev_close": 165.36,
-      "curr_close": 167.75,
-      "r_cc_pct": 1.4453,
-      "z_U": 1.326612
+      "prev_close": 167.75,
+      "curr_close": 167.66,
+      "r_cc_pct": -0.0536,
+      "z_U": -0.143989
     },
     "XLI": {
-      "prev_close": 172.37,
-      "curr_close": 169.93,
-      "r_cc_pct": -1.4156,
-      "z_U": -1.349936
+      "prev_close": 169.93,
+      "curr_close": 168.85,
+      "r_cc_pct": -0.6355,
+      "z_U": -0.632232
     },
     "XLB": {
-      "prev_close": 50.95,
-      "curr_close": 50.49,
-      "r_cc_pct": -0.9028,
-      "z_U": -0.853044
+      "prev_close": 50.49,
+      "curr_close": 50.73,
+      "r_cc_pct": 0.4753,
+      "z_U": 0.371019
     },
     "XLRE": {
-      "prev_close": 43.42,
-      "curr_close": 43.12,
-      "r_cc_pct": -0.6909,
-      "z_U": -0.809258
+      "prev_close": 43.12,
+      "curr_close": 43.07,
+      "r_cc_pct": -0.116,
+      "z_U": -0.161759
     },
     "XLK": {
-      "prev_close": 187.67,
-      "curr_close": 184.28,
-      "r_cc_pct": -1.8064,
-      "z_U": -1.16659
+      "prev_close": 184.28,
+      "curr_close": 183.74,
+      "r_cc_pct": -0.293,
+      "z_U": -0.257611
     },
     "XLU": {
-      "prev_close": 42.39,
-      "curr_close": 41.82,
-      "r_cc_pct": -1.3447,
-      "z_U": -1.407279
+      "prev_close": 41.82,
+      "curr_close": 41.32,
+      "r_cc_pct": -1.1956,
+      "z_U": -1.259773
     }
   },
   "signals_ranked": {
-    "商社・卸売": {
-      "signal": -0.063041,
-      "code": "1629",
-      "class": "ニュートラル",
-      "position": "LONG"
-    },
-    "食品": {
-      "signal": -0.07772,
-      "code": "1617",
-      "class": "ディフェンシブ",
-      "position": "LONG"
-    },
-    "小売": {
-      "signal": -0.084698,
-      "code": "1630",
-      "class": "ニュートラル",
+    "エネルギー資源": {
+      "signal": 0.533662,
+      "code": "1618",
+      "class": "シクリカル",
       "position": "LONG"
     },
     "運輸・物流": {
-      "signal": -0.100783,
+      "signal": 0.359909,
       "code": "1628",
       "class": "ニュートラル",
       "position": "LONG"
     },
-    "医薬品": {
-      "signal": -0.145208,
-      "code": "1621",
+    "電力・ガス": {
+      "signal": 0.184917,
+      "code": "1627",
       "class": "ディフェンシブ",
       "position": "LONG"
     },
-    "エネルギー資源": {
-      "signal": -0.201274,
-      "code": "1618",
+    "電機・精密": {
+      "signal": 0.155728,
+      "code": "1625",
       "class": "シクリカル",
-      "position": "-"
+      "position": "LONG"
     },
-    "電力・ガス": {
-      "signal": -0.233203,
-      "code": "1627",
-      "class": "ディフェンシブ",
-      "position": "-"
-    },
-    "自動車・輸送機": {
-      "signal": -0.251859,
-      "code": "1622",
+    "銀行": {
+      "signal": 0.122372,
+      "code": "1631",
       "class": "シクリカル",
-      "position": "-"
+      "position": "LONG"
     },
     "情報・サービス他": {
-      "signal": -0.261916,
+      "signal": 0.112034,
       "code": "1626",
       "class": "シクリカル",
       "position": "-"
     },
+    "食品": {
+      "signal": 0.107511,
+      "code": "1617",
+      "class": "ディフェンシブ",
+      "position": "-"
+    },
+    "商社・卸売": {
+      "signal": 0.063265,
+      "code": "1629",
+      "class": "ニュートラル",
+      "position": "-"
+    },
+    "自動車・輸送機": {
+      "signal": 0.050726,
+      "code": "1622",
+      "class": "シクリカル",
+      "position": "-"
+    },
+    "素材・化学": {
+      "signal": -0.057834,
+      "code": "1620",
+      "class": "シクリカル",
+      "position": "-"
+    },
+    "医薬品": {
+      "signal": -0.073449,
+      "code": "1621",
+      "class": "ディフェンシブ",
+      "position": "-"
+    },
     "金融(除く銀行)": {
-      "signal": -0.273533,
+      "signal": -0.097919,
       "code": "1632",
       "class": "シクリカル",
       "position": "-"
     },
     "不動産": {
-      "signal": -0.29162,
+      "signal": -0.110298,
       "code": "1633",
       "class": "ニュートラル",
-      "position": "-"
+      "position": "SHORT"
     },
     "鉄鋼・非鉄": {
-      "signal": -0.32353,
+      "signal": -0.178777,
       "code": "1623",
-      "class": "シクリカル",
-      "position": "-"
-    },
-    "銀行": {
-      "signal": -0.34231,
-      "code": "1631",
-      "class": "シクリカル",
-      "position": "SHORT"
-    },
-    "素材・化学": {
-      "signal": -0.363098,
-      "code": "1620",
-      "class": "シクリカル",
-      "position": "SHORT"
-    },
-    "電機・精密": {
-      "signal": -0.382407,
-      "code": "1625",
-      "class": "シクリカル",
-      "position": "SHORT"
-    },
-    "建設・資材": {
-      "signal": -0.410399,
-      "code": "1619",
       "class": "シクリカル",
       "position": "SHORT"
     },
     "機械": {
-      "signal": -0.419985,
+      "signal": -0.189697,
       "code": "1624",
       "class": "シクリカル",
+      "position": "SHORT"
+    },
+    "建設・資材": {
+      "signal": -0.286051,
+      "code": "1619",
+      "class": "シクリカル",
+      "position": "SHORT"
+    },
+    "小売": {
+      "signal": -0.370872,
+      "code": "1630",
+      "class": "ニュートラル",
       "position": "SHORT"
     }
   },
   "positions": {
     "target_date": "None",
     "long_positions": [
-      "商社・卸売",
-      "食品",
-      "小売",
+      "エネルギー資源",
       "運輸・物流",
-      "医薬品"
+      "電力・ガス",
+      "電機・精密",
+      "銀行"
     ],
     "short_positions": [
-      "銀行",
-      "素材・化学",
-      "電機・精密",
+      "不動産",
+      "鉄鋼・非鉄",
+      "機械",
       "建設・資材",
-      "機械"
+      "小売"
     ]
   },
   "verification": {
-    "verify_date": "2026-09-14",
-    "long_side_pct": NaN,
-    "short_side_pct": NaN,
-    "strategy_return_pct": NaN,
+    "verify_date": "2026-09-15",
+    "long_side_pct": -1.1108,
+    "short_side_pct": 0.2001,
+    "strategy_return_pct": -0.9107,
     "win_loss": "負け",
     "results": {
-      "鉄鋼・非鉄": {
+      "商社・卸売": {
         "side": "LONG",
-        "open": NaN,
-        "close": NaN,
-        "roc_pct": NaN,
-        "contrib": NaN
+        "open": 283.3999938964844,
+        "close": 276.5,
+        "roc_pct": -2.4347,
+        "contrib": -0.4869
       },
-      "建設・資材": {
+      "食品": {
         "side": "LONG",
-        "open": NaN,
-        "close": NaN,
-        "roc_pct": NaN,
-        "contrib": NaN
-      },
-      "機械": {
-        "side": "LONG",
-        "open": NaN,
-        "close": NaN,
-        "roc_pct": NaN,
-        "contrib": NaN
+        "open": 47820.0,
+        "close": 47420.0,
+        "roc_pct": -0.8365,
+        "contrib": -0.1673
       },
       "小売": {
         "side": "LONG",
-        "open": NaN,
-        "close": NaN,
-        "roc_pct": NaN,
-        "contrib": NaN
+        "open": 36900.0,
+        "close": 36450.0,
+        "roc_pct": -1.2195,
+        "contrib": -0.2439
       },
-      "素材・化学": {
+      "運輸・物流": {
         "side": "LONG",
-        "open": NaN,
-        "close": NaN,
-        "roc_pct": NaN,
-        "contrib": NaN
+        "open": 22345.0,
+        "close": 22100.0,
+        "roc_pct": -1.0964,
+        "contrib": -0.2193
+      },
+      "医薬品": {
+        "side": "LONG",
+        "open": 30060.0,
+        "close": 30070.0,
+        "roc_pct": 0.0333,
+        "contrib": 0.0067
       },
       "銀行": {
         "side": "SHORT",
-        "open": NaN,
-        "close": NaN,
-        "roc_pct": NaN,
-        "contrib": NaN
+        "open": 42300.0,
+        "close": 41760.0,
+        "roc_pct": -1.2766,
+        "contrib": 0.2553
       },
-      "電力・ガス": {
+      "素材・化学": {
         "side": "SHORT",
-        "open": NaN,
-        "close": NaN,
-        "roc_pct": NaN,
-        "contrib": NaN
+        "open": 35860.0,
+        "close": 35490.0,
+        "roc_pct": -1.0318,
+        "contrib": 0.2064
       },
-      "食品": {
+      "電機・精密": {
         "side": "SHORT",
-        "open": NaN,
-        "close": NaN,
-        "roc_pct": NaN,
-        "contrib": NaN
+        "open": 60710.0,
+        "close": 61120.0,
+        "roc_pct": 0.6753,
+        "contrib": -0.1351
       },
-      "エネルギー資源": {
+      "建設・資材": {
         "side": "SHORT",
-        "open": NaN,
-        "close": NaN,
-        "roc_pct": NaN,
-        "contrib": NaN
+        "open": 43830.0,
+        "close": 43910.0,
+        "roc_pct": 0.1825,
+        "contrib": -0.0365
       },
-      "運輸・物流": {
+      "機械": {
         "side": "SHORT",
-        "open": NaN,
-        "close": NaN,
-        "roc_pct": NaN,
-        "contrib": NaN
+        "open": 79990.0,
+        "close": 80350.0,
+        "roc_pct": 0.4501,
+        "contrib": -0.09
       }
     }
   }
