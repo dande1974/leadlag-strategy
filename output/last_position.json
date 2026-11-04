@@ -1,5 +1,5 @@
 {
-  "target_date": "None",
+  "target_date": "2026-11-04",
   "long_positions": [
     "医薬品",
     "食品",
@@ -15,5 +15,5 @@
     "機械"
   ],
   "us_data_date": "2026-11-02",
-  "execution_datetime": "2026-11-03 11:59"
+  "execution_datetime": "2026-11-04 10:32"
 }
